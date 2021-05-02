@@ -1,0 +1,6 @@
+body {
+  background: url(./image/galaxy.jpg) no-repeat center center fixed;
+  -moz-background: cover;
+  -o-background: cover;
+  background: cover;
+}
