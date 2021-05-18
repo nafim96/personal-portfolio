@@ -29,7 +29,7 @@ const Home = () => {
         params={{
           particles: {
             number: {
-              value: 60,
+              value: 30,
             },
             density: {
               enable: true,

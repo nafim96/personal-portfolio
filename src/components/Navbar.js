@@ -21,9 +21,10 @@ import HomeIcon from "@material-ui/icons/Home";
 import AppsIcon from "@material-ui/icons/Apps";
 import DescriptionIcon from "@material-ui/icons/Description";
 import ContactMailIcon from "@material-ui/icons/ContactMail";
+import WcIcon from "@material-ui/icons/Wc";
 
 import FormatIndentIncreaseIcon from "@material-ui/icons/FormatIndentIncrease";
-import avatar from "../image/like.jpg";
+import avatar from "../image/like.png";
 import Footer from "./Footer";
 
 const useStyle = makeStyles((theme) => ({
@@ -63,6 +64,11 @@ const menuItems = [
     listIcon: <DescriptionIcon />,
     listText: "Blog",
     listPath: "/Blog",
+  },
+  {
+    listIcon: <WcIcon />,
+    listText: "Hire",
+    listPath: "/hire",
   },
   {
     listIcon: <ContactMailIcon />,

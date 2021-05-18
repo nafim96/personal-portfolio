@@ -16,7 +16,7 @@ const Blog = () => {
         params={{
           particles: {
             number: {
-              value: 70,
+              value: 25,
             },
             density: {
               enable: true,

@@ -1,11 +1,12 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Contact from "./components/Contact";
+import Hire from "./components/Hire";
 import Home from "./components/Home";
 import Resume from "./components/Resume";
 import Blog from "./components/Blog";
 import Project from "./components/Project";
 import { CssBaseline } from "@material-ui/core";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path="/blog">
           <Blog />
+        </Route>
+        <Route path="/hire">
+          <Hire />
         </Route>
         <Route path="/contact">
           <Contact />

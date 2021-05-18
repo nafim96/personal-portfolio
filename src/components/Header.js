@@ -1,7 +1,7 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Avatar, Box, Grid, Link } from "@material-ui/core";
-import avatar from "../image/like.jpg";
+import avatar from "../image/like.png";
 import Typed from "react-typed";
 
 const useStyle = makeStyles((theme) => ({
@@ -11,11 +11,11 @@ const useStyle = makeStyles((theme) => ({
     margin: theme.spacing(1),
   },
   title: {
-    color: "#47ffee",
+    color: "tomato",
     fontWeight: "bold",
   },
   subtitle: {
-    color: "#b30000",
+    color: "tan",
     fontWeight: "bold",
     marginBottom: "3rem",
   },
@@ -28,8 +28,22 @@ const useStyle = makeStyles((theme) => ({
     zIndex: 1,
   },
   button: {
-    color: "#000000",
+    color: "#233",
     fontWeight: "bold",
+    "&:hover": {
+      color: "#ffffff",
+      textDecoration: "none",
+    },
+  },
+  buttonStyle: {
+    padding: "5px",
+    backgroundColor: "tan",
+    border: "none",
+    borderRadius: "10px",
+    "&:hover": {
+      backgroundColor: "#525",
+      color: "#ffffff",
+    },
   },
 }));
 const Header = () => {
@@ -40,7 +54,7 @@ const Header = () => {
         <Avatar className={classes.avatar} src={avatar} alt="Nasir Uddin" />
       </Grid>
       <Typography variant="h3" className={classes.title}>
-        <Typed strings={["Nasir Uddin"]} typeSpeed={150} backSpeed={300} loop />
+        <Typed strings={["Nasir Uddin"]} typeSpeed={150} />
       </Typography>
       <br />
       <Typography variant="h4" className={classes.subtitle}>
@@ -56,21 +70,13 @@ const Header = () => {
           loop
         />
       </Typography>
-      <Typography
-        component="button"
-        style={{
-          padding: "5px",
-          border: "none",
-          borderRadius: "10px",
-          background: "linear-gradient(-90deg,red, yellow, green , blue)",
-        }}
-      >
+      <Typography component="button" className={classes.buttonStyle}>
         <Link
           href="https://drive.google.com/file/d/1WjFGYAV1qiXG8JXLmtUzyxgF_rWKtl_l/view?usp=sharing"
           target="_blank"
         >
           <Typography variant="body1" className={classes.button}>
-            <Typed strings={["Download Resume"]} typeSpeed={150} />
+            Download Resume
           </Typography>
         </Link>
       </Typography>

@@ -59,7 +59,7 @@ const BlogDetails = () => {
         />
       </Typography>
       <Grid container justify="center" alignItems="center">
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={6} md={3}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
               <CardMedia

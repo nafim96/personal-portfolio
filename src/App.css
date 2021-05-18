@@ -1,5 +1,5 @@
 body {
-  background: url(./image/galaxy.jpg) no-repeat center center fixed;
+  background: url(./image/galaxy.jpg) no-repeat center center;
   -moz-background: cover;
   -o-background: cover;
   background: cover;

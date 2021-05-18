@@ -53,7 +53,7 @@ const Project = () => {
       </Typography>
       <Grid container justify="center" alignItems="center">
         {/* project 1  */}
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
               <CardMedia
@@ -102,7 +102,7 @@ const Project = () => {
           </Card>
         </Grid>
         {/* project 2  */}
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
               <CardMedia
@@ -147,7 +147,7 @@ const Project = () => {
           </Card>
         </Grid>
         {/* project 3  */}
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
               <CardMedia
@@ -185,7 +185,7 @@ const Project = () => {
           </Card>
         </Grid>
         {/* project 4  */}
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
               <CardMedia
@@ -223,7 +223,7 @@ const Project = () => {
           </Card>
         </Grid>
         {/* project 5  */}
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
               <CardMedia
@@ -261,7 +261,7 @@ const Project = () => {
           </Card>
         </Grid>
         {/* project 6 */}
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
               <CardMedia
@@ -299,7 +299,7 @@ const Project = () => {
           </Card>
         </Grid>
         {/* project 7  */}
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
               <CardMedia
@@ -337,7 +337,7 @@ const Project = () => {
           </Card>
         </Grid>
         {/* project 8  */}
-        <Grid item xs={12} sm={8} md={6}>
+        <Grid item xs={12} sm={6} md={4}>
           <Card className={classes.cardContainer}>
             <CardActionArea>
               <CardMedia
